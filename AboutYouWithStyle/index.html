@@ -1,0 +1,127 @@
+<!--Jesse Abarca-->
+<!--Date: 11/1/21-->
+<!--Mini Challenge #12 - About You With Style-->
+<!--Use HTML tags to create a website about you! Use a css file for styling be sure to include the following:-->
+<!--1. Details about yourself, 2. Lists and other markup when needed, 3. Links to your social media, 4. Use at least 10 different tags, 5. Style you html using a css file!-->
+<!--Date: 11/3/21: I showed my family the website and they suggested to add my accomplishments or what I did in high school to add more to the website, the original paragraph does not describe anything I have done! -->
+<!--Date: 11/5/21 I had trouble adding my google drive letter but I just embeded it as a pdf, it is in the folder called pdf.-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>All About Jesse!</title>
+  </head>
+  <body class="colorBackground">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mainHdr d-flex justify-content-center">
+                <h1>All About Jesse Sean Abarca</h1>
+            </div>
+
+        <!--Use this line of code to make the horzontal rule AKA horizontal line-->
+        <div class="row">
+            <div class="col-12 horizontalLine">
+                <hr/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 paragraph">
+                <p><strong><p>About me:<br/></strong> Hi, my name is Jesse Sean Abarca. I was born on April 8th, 2003 at Dameron Hospital in Stockton, California. My family consists of my mother father, sister and brother, I am the youngest out of three siblings. I have recently just graduated from Edison High School and I am a bearer the <em>Seal of Biliteracy</em> for proficiency in Spanish, the <em>Golden State Seal Merit Diploma</em> for displaying mastery of the curriculum in at least six subjects, and bearer of the <em>California Scholarship Federation Seal</em> for taking honors and AP classes. I have also received a sash for completion of the <em>Project Lead The Way</em> engineering pathway in which I dedicated three years of taking specific classes which included: introduction to engineering design, engineering principles, and computer integrated manufacturing. Furthermore, I am OSHA certified as of 05/04/2020. Moreover, I have committed <a href="./pdfs/Hours Verification - Jesse Abarca.pdf" target="_blank">90 service hours</a> to volunteering in an organization called <em>Changiest</em> in which my group organized a mutual aid where we provided individuals with funds of up to $50 so they can purchase their necessities during the midst of the pandemic. Furthermore, as of this moment, I am currently 18 years old and attending CodeStack Academy as of 11/1/21. Inevitably, I am excited to attend this academy and I am looking forward to learning and to growing as developers with all of you!</p>
+            </div>
+            <div class="col-6">
+                <figure>
+                <img class="photographs photographMarginsUpandDown disneyWrldPic" src="./Images/DisneyworldFamiy.JPG" alt="A picture of Jesse's family in Disney World." width="550px">
+                    <figcaption class="paragraph ImgCaptionDisney">Picture of my family at Disney World.</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <!--Horizontal line separating the synopsis from the hobbies!-->
+        <div class="row">
+            <div class="col-12 horizontalLine">
+                <hr/>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="mainHdr d-flex justify-content-center">
+                <h1>Hobbies</h1>
+            </div> 
+        </div>
+        <!--New row for my lists for the subheading Hobbies!-->
+        <div class="row">
+            <div class="col-6 paragraph">
+                <p>Some of my hobbies include:</p>
+                <ul>
+                    <li>Video Games</li>
+                    <li>Baseball</li>
+                    <li>Anime</li>
+                </ul>
+                <p><strong>Video Games:</strong> My favorite video game series is the <em>Halo</em> series. My favorite game of the series is <em>Halo 3 ODST</em> for its amazing soundtrack and overall feeling of loneliness that it emits, I recommend playing this game on a rainy day!</p>
+                <p><strong>Baseball:</strong> I played little league baseball growing up for about 3 years. I played third baseman, shortstop, left field, and right field. My favorite baseball team is the <em>San Francisco Giants</em>.</p>
+                <p><strong>Anime:</strong> I love watching anime during my spare time and my favorite anime is <em>Cowboy Bebop</em>, the English dub is amazing.</p>
+            </div>
+            <div class="col-6">
+                <figure>
+                <img class="photographs BaseballPhoto" src="./Images/BaseballJesse3.jpg" alt="A picture of Jesse batting during a baseball game." width="400px">
+                <figcaption class="paragraph ImgCaptionBaseball">Baseball picture day photo.</figcaption>
+                </figure>
+            </div>
+        </div>
+        
+        <!--Horizontal line separating social media from hobbies-->
+        <div class="row">
+            <div class="col-12 horizontalLine">
+                <hr/>
+            </div>
+        </div>
+
+        <!--Social Media-->
+        <div class="row">
+            <div class="mainHdr d-flex justify-content-center">
+                <h1>Contact Me</h1>
+            </div>
+        </div>
+    
+
+        <!--I used offset but there are better practices to centering such as "d-flex justify-content-center" -->
+    <div class="row">
+        <div class="col-4 paragraph d-flex justify-content-center">
+            <p>JesseAbarca888@gmail.com</p>
+        </div>
+        <div class="col-4 paragraph d-flex justify-content-center">
+            <a href="https://www.linkedin.com/in/jesse-abarca-218a52224/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="col-4 paragraph d-flex justify-content-center">
+            <p>Jabarca@codestack.co</p>
+        </div>
+    </div>
+
+   
+    
+
+
+</div><!--end container -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

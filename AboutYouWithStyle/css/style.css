@@ -1,0 +1,73 @@
+
+.mainHdr{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* Add other fonts if arial does not work! */
+.paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    /* color: rgb(0, 179, 255); */
+    color: white;
+    font-size: x-large;
+    line-height: 50px;
+}
+
+/* I added a border and gradient on my image frames! */
+.photographs{
+    margin-top: 10px;
+    padding: 12px;
+    background: linear-gradient(to left, rgb(0, 179, 255), black);
+    border: 5px solid rgb(0, 179, 255);
+    
+}
+
+.photographMarginsUpandDown{
+    margin-top: 255px;
+    margin-left: 100px;
+}
+
+/* I played around with gradient on the horizonal Line */
+.horizontalLine{
+    height: 20px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to left, rgb(0, 179, 255), black);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*Remember that this only affects the the direct child of a div */
+/*I used "d-flex justify-content-center" instead of this*/
+.c-center {
+    display: flex;
+    justify-content: center;
+  }
+
+.BaseballPhoto{
+    margin-top: 61px;
+    margin-left: 100px;
+    height: 500px;
+}
+
+/* I could not change the background using Body this is the only way it worked! */
+.colorBackground{
+    /* background: rgb(23, 23, 23); */
+    background:rgb(35, 37, 40);
+}
+
+/* I could not change the height inside the html and this is how I got it to work! */
+.disneyWrldPic{
+    height: 660px;
+}
+
+.ImgCaptionDisney{
+    margin-left: 200px;
+}
+
+.ImgCaptionBaseball{
+    margin-left: 175px;
+}
+
